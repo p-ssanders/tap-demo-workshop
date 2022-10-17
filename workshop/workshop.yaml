@@ -1,0 +1,5 @@
+name: TAP Demo Workshop 1
+modules:
+  activate:
+    - module-1
+    - module-2

@@ -7,7 +7,7 @@ spec:
     registration:
       type: anonymous
   workshops:
-  - name: lab-tap-sample
-    capacity: 2
-    expires: 1m
-    orphaned: 1m
+  - name: tap-demo-workshop-1
+    capacity: 3
+    expires: 1h
+    orphaned: 10m

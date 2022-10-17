@@ -1,0 +1,7 @@
+modules:
+  module-1:
+    name: Module One
+    exit_sign: Module Two
+  module-2:
+    name: Module Two
+    exit_sign: Done
