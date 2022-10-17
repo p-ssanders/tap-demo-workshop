@@ -1,0 +1,13 @@
+apiVersion: learningcenter.tanzu.vmware.com/v1beta1
+kind: TrainingPortal
+metadata:
+  name: tap-demo-training-portal
+spec:
+  portal:
+    registration:
+      type: anonymous
+  workshops:
+  - name: lab-tap-sample
+    capacity: 2
+    expires: 1m
+    orphaned: 1m
